@@ -7,18 +7,20 @@ Reference: [http://www.tandfonline.com/doi/abs/10.1080/00330124.2012.679445](htt
 
 ## 1. 程序入口：
 GravityFit类main函数：</br>
-	GravityFit gf = new GravityFit("W:\\Java\\GravityFit_PSO\\src\\flows.txt", "W:\\Java\\GravityFit_PSO\\src\\points.txt", 3, 1);
+
+	GravityFit gf = new GravityFit("W:\\Java\\GravityFit_PSO\\src\\flows.txt", "W:\\Java\\GravityFit_PSO\\src\\points.txt", 3, 1);</br>
+	
    ——构建一个GravityFit对象</br>
    其中参数分别表示：流文件数据，点坐标数据，数据编码格式，线程数（需能被30整除），所用模型（0或1）</br>
 
 
 ## 2. 注意事项：
 ### 2.1 数据格式（txt文档，UTF-8无BOM格式）
-流数据例如：</br>
+- 流数据例如：</br>
     **上海 苏州 69059**</br>
 一行代表一条流数据，字符串之间、字符串和数字之间都是一个空格</br>
        
-点数据例如：</br>
+- 点数据例如：</br>
     **上海 121.473704 31.230393**</br>
 同样一行代表一个点数据ID及其坐标，中间都是一个空格</br>
 
