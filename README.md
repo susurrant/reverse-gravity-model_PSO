@@ -1,4 +1,4 @@
-# ReverseGravityModel_PSO
+# reverse-gravity-model_PSO
 Implemention of reverse gravity model estimation using particle swarm optimization method
 
 Language: Java (with multithreading) and Python<br>
